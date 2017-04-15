@@ -1,0 +1,15 @@
+ #btn-chat {
+    position:fixed;
+    right: 0px;
+    bottom:0px;
+    width:250px;            
+    background:#4498ef;
+    color:white;
+    padding:8px;
+    font-weight:bold;
+    cursor:pointer;
+    border: none;
+    border-radius:5px 5px 0px 0px;
+    z-index: 1000;
+
+}
