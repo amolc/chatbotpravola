@@ -6,7 +6,7 @@
       {storeProvider.setStore('sessionStorage');}
     ]);
   ChatModule.factory('socket', ['$rootScope', function($rootScope) {
-    var socket = io.connect();
+    var socket = io.connect("http://atlanta.fountaintechies.com:2001/");
     return {
       on: function(eventName, callback){
         socket.on(eventName, callback);
